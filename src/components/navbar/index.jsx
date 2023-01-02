@@ -28,7 +28,7 @@ const Navbar = () => {
         name="menu"
         className={`${menuStyle} text-[white] w-full px-14 mx-auto flex gap-x-8 items-center`}
       >
-        <li className="text-2x font-bold hover:text-slate-700 cursor-pointer">
+        <li className="text-2x font-bold hover:text-slate-700 cursor-pointer relative z-100">
           Logo
         </li>
 
